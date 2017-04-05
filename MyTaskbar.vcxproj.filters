@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Controls">
+      <UniqueIdentifier>{3b781934-ad80-45a5-af9f-d3befdf9dfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Controls">
+      <UniqueIdentifier>{8533869c-6aff-48c4-b133-2922887942a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utility">
+      <UniqueIdentifier>{d937e0ca-2ace-4bf1-8467-b9c3329cbaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utility">
+      <UniqueIdentifier>{44d7bdb7-237f-41c3-9b74-82139109b578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SetWallPaper">
+      <UniqueIdentifier>{6b29739a-3fc9-48a0-b3cd-9f6af3c576da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SetWallPaper">
+      <UniqueIdentifier>{56a8bca2-fd15-464c-8d64-1bacca5da524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{a2f80dee-ecd5-4f66-8562-32f736054160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MyTaskbar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MyTaskbar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\Close_1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\Close_2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\Menu_1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\Menu_2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\res\UI\min_1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\Debug\res\UI\min_2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\min_1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\UI\min_2.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyTaskbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTaskbarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HookCallBack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CalculateTime.h">
+      <Filter>头文件\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\PathHelper.h">
+      <Filter>头文件\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ListCtrlEx.h">
+      <Filter>头文件\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\MFCButtonex.h">
+      <Filter>头文件\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWallPaper\Calendar.h">
+      <Filter>头文件\SetWallPaper</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWallPaper\DrawWallPaper.h">
+      <Filter>头文件\SetWallPaper</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWallPaper\SetWinWallPaper.h">
+      <Filter>头文件\SetWallPaper</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Setting.h">
+      <Filter>头文件\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>头文件\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL\DynamicLogger.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL\Logger.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyTaskbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTaskbarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HookCallBack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>源文件\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CalculateTime.cpp">
+      <Filter>源文件\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\PathHelper.cpp">
+      <Filter>源文件\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ListCtrlEx.cpp">
+      <Filter>源文件\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\MFCButtonex.cpp">
+      <Filter>源文件\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWallPaper\Calendar.cpp">
+      <Filter>源文件\SetWallPaper</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWallPaper\DrawWallPaper.cpp">
+      <Filter>源文件\SetWallPaper</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWallPaper\SetWinWallPaper.cpp">
+      <Filter>源文件\SetWallPaper</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Setting.cpp">
+      <Filter>源文件\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyTaskbar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
